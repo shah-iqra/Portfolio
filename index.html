@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shah Iqra | CSE Student &amp; Aspiring Backend Developer</title>
+    <meta name="description" content="Portfolio of Shah Iqra, a CSE student at the University of Asia Pacific building Django backends, REST APIs and data projects.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main>
+
+        <!-- Hero -->
+        <section class="narrow hero" id="home">
+
+            <div class="hero-top">
+                <div>
+                    <h1>Hi, I'm Shah Iqra</h1>
+                    <p class="role">CSE Student &amp; Aspiring Backend Developer</p>
+                    <p class="meta">University of Asia Pacific, Dhaka. Graduating in 2027.</p>
+                </div>
+
+                <img
+                    src="image/profile.jpeg"
+                    alt="Portrait of Shah Iqra"
+                    class="avatar"
+                    width="112"
+                    height="112"
+                />
+            </div>
+
+            <p class="status">
+                <span class="status-dot" aria-hidden="true"></span>
+                Open to backend and Python internships
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View projects</a>
+                <a href="Shah_Iqra_CV.pdf" class="btn btn-ghost" download>Download CV</a>
+                <a href="https://github.com/shah-iqra" class="btn btn-ghost" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://www.linkedin.com/in/shah-iqra/" class="btn btn-ghost" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+
+        </section>
+
+        <!-- About -->
+        <section class="narrow block" id="about">
+            <h2 class="block-title">About</h2>
+
+            <div class="prose">
+                <p>
+                    I'm a fourth-year Computer Science and Engineering student with a
+                    strong interest in software engineering, backend development and
+                    database systems. I work mostly in Python and Django, and I like
+                    turning real-world problems into working applications.
+                </p>
+
+                <p>
+                    My projects range from a full role-based library platform to a
+                    real-time electricity monitoring system with an AI-powered Discord
+                    bot. I'm also interested in AI and robotics, and I'm looking for an
+                    internship or entry-level role where I can learn from a real
+                    codebase and contribute to it.
+                </p>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section class="narrow block" id="education">
+            <h2 class="block-title">Education</h2>
+
+            <article class="row-card">
+                <span class="monogram" aria-hidden="true">UAP</span>
+
+                <div class="row-card-main">
+                    <h3>University of Asia Pacific</h3>
+                    <p>Bachelor of Science in Computer Science and Engineering</p>
+                    <p class="row-card-note">CGPA 3.74 up to 6th semester</p>
+                </div>
+
+                <span class="row-card-date">Expected 2027</span>
+            </article>
+        </section>
+
+        <!-- Skills -->
+        <section class="wide block centered" id="skills">
+
+            <span class="badge">Skills</span>
+            <h2 class="section-title">Skills &amp; Technologies</h2>
+            <p class="section-sub">What I use to build projects, from the database up to the API.</p>
+
+            <div class="skill-groups">
+
+                <div class="skill-group">
+                    <h3>Programming languages</h3>
+                    <ul class="chips">
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>SQL</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript (basic)</li>
+                    </ul>
+                </div>
+
+                <div class="skill-group">
+                    <h3>Frameworks &amp; libraries</h3>
+                    <ul class="chips">
+                        <li>Django</li>
+                        <li>REST API (basic)</li>
+                        <li>Pandas</li>
+                        <li>scikit-learn</li>
+                        <li>Matplotlib</li>
+                        <li>Seaborn</li>
+                    </ul>
+                </div>
+
+                <div class="skill-group">
+                    <h3>Databases</h3>
+                    <ul class="chips">
+                        <li>PostgreSQL</li>
+                        <li>SQLite</li>
+                        <li>MySQL</li>
+                    </ul>
+                </div>
+
+                <div class="skill-group">
+                    <h3>Developer tools</h3>
+                    <ul class="chips">
+                        <li>Git</li>
+                        <li>GitHub</li>
+                        <li>VS Code</li>
+                        <li>PyCharm</li>
+                        <li>OBS Studio</li>
+                        <li>Canva</li>
+                    </ul>
+                </div>
+
+                <div class="skill-group">
+                    <h3>Core concepts</h3>
+                    <ul class="chips">
+                        <li>OOP</li>
+                        <li>Data structures &amp; algorithms</li>
+                        <li>DBMS</li>
+                        <li>Software engineering</li>
+                        <li>SDLC</li>
+                        <li>Agile</li>
+                        <li>API integration</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="wide block centered" id="projects">
+
+            <span class="badge">My projects</span>
+            <h2 class="section-title">Check out my work</h2>
+            <p class="section-sub">Academic, hackathon and self-directed projects, from a library platform to an AI-powered monitoring bot.</p>
+
+            <div class="project-rows">
+
+                <article class="project-row">
+                    <header class="project-head">
+                        <h3>BookNest, Library Management System</h3>
+                        <span class="type-tag">Academic project</span>
+                    </header>
+
+                    <div class="project-body">
+                        <p>
+                            A full-featured, role-based library platform for admins,
+                            librarians and regular users.
+                        </p>
+                        <ul class="project-points">
+                            <li>Book cataloging, borrowing and returns with automatic fine calculation, plus member management.</li>
+                            <li>Upload, review and approval workflow for research papers and digital resources.</li>
+                            <li>Premium notes and courses with purchase tracking and a mobile-payment module for bKash, Nagad and Rocket.</li>
+                            <li>Reviews and ratings, wishlist, notifications, support tickets, activity logs, CSV and PDF exports, and an analytics dashboard.</li>
+                        </ul>
+                    </div>
+
+                    <footer class="project-foot">
+                        <ul class="chips small">
+                            <li>Python</li>
+                            <li>Django</li>
+                            <li>SQLite</li>
+                        </ul>
+                        <a href="https://github.com/shah-iqra" target="_blank" rel="noopener noreferrer" class="project-link">GitHub</a>
+                    </footer>
+                </article>
+
+                <article class="project-row">
+                    <header class="project-head">
+                        <h3>Office Monitor, Real-Time Electricity Monitoring</h3>
+                        <span class="type-tag">Techathon 2026</span>
+                    </header>
+
+                    <div class="project-body">
+                        <p>
+                            Built with Team The Tech Titans for the Techathon 2026
+                            preliminary round. A live web dashboard shows room-wise device
+                            status, per-room power and kWh, and timestamped alerts.
+                        </p>
+                        <ul class="project-points">
+                            <li>An AI-powered Discord bot reads from the same Django REST backend and supports status, room and usage commands.</li>
+                            <li>Free chat through Llama 3.3 70B (Groq) and proactive alert posts.</li>
+                            <li>15 simulated devices across 3 rooms stored in SQLite, with a Wokwi circuit simulation.</li>
+                        </ul>
+                    </div>
+
+                    <footer class="project-foot">
+                        <ul class="chips small">
+                            <li>Django REST API</li>
+                            <li>SQLite</li>
+                            <li>Discord bot</li>
+                            <li>Groq LLM</li>
+                            <li>Team project</li>
+                        </ul>
+                        <a href="https://github.com/ayesha-rahman37/Techathon2026--The-Tech-Titans-" target="_blank" rel="noopener noreferrer" class="project-link">GitHub</a>
+                    </footer>
+                </article>
+
+                <article class="project-row">
+                    <header class="project-head">
+                        <h3>Oasis Infobyte Data Science Task Series</h3>
+                        <span class="type-tag">Self-directed, 2026</span>
+                    </header>
+
+                    <div class="project-body">
+                        <p>
+                            Three machine learning and data analysis projects based on a
+                            standard data science task list.
+                        </p>
+                        <ul class="project-points">
+                            <li>Iris flower classification: compared Logistic Regression, KNN and Decision Tree, and picked the best model with 5-fold cross-validation (97.3% accuracy).</li>
+                            <li>Sales prediction from advertising spend: Random Forest reached an R&sup2; of 0.98.</li>
+                            <li>Unemployment analysis: exploratory analysis of COVID-19's impact across Indian states.</li>
+                        </ul>
+                    </div>
+
+                    <footer class="project-foot">
+                        <ul class="chips small">
+                            <li>Python</li>
+                            <li>scikit-learn</li>
+                            <li>Pandas</li>
+                            <li>Matplotlib</li>
+                            <li>Seaborn</li>
+                        </ul>
+                        <a href="https://github.com/shah-iqra/OIBSIP" target="_blank" rel="noopener noreferrer" class="project-link">GitHub</a>
+                    </footer>
+                </article>
+
+                <article class="project-row">
+                    <header class="project-head">
+                        <h3>University Canteen Management System</h3>
+                        <span class="type-tag">Academic project</span>
+                    </header>
+
+                    <div class="project-body">
+                        <p>
+                            A web application to manage canteen orders, menu items and
+                            billing for university students and staff.
+                        </p>
+                    </div>
+
+                    <footer class="project-foot">
+                        <ul class="chips small">
+                            <li>Python</li>
+                            <li>Django</li>
+                        </ul>
+                    </footer>
+                </article>
+
+                <article class="project-row">
+                    <header class="project-head">
+                        <h3>Hospital Management System</h3>
+                        <span class="type-tag">Academic project</span>
+                    </header>
+
+                    <div class="project-body">
+                        <p>
+                            A database-driven system to manage patient records,
+                            appointments and hospital administration data.
+                        </p>
+                    </div>
+
+                    <footer class="project-foot">
+                        <ul class="chips small">
+                            <li>MySQL</li>
+                        </ul>
+                    </footer>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Achievements -->
+        <section class="narrow block centered" id="achievements">
+
+            <span class="badge">Hackathons &amp; awards</span>
+            <h2 class="section-title">Recognition along the way</h2>
+            <p class="section-sub">Competitions I took part in and academic honors from my university.</p>
+
+            <ol class="timeline">
+                <li>
+                    <h3>Techathon 2026, Preliminary Round</h3>
+                    <p>Took part with Team The Tech Titans and built Office Monitor, a real-time electricity monitoring system with a web dashboard and an AI-powered Discord bot.</p>
+                    <span class="type-tag">Hackathon</span>
+                </li>
+
+                <li>
+                    <h3>Vice Chancellor's Honor Award</h3>
+                    <p>Awarded for academic excellence at the University of Asia Pacific.</p>
+                    <span class="type-tag">Academic award</span>
+                </li>
+
+                <li>
+                    <h3>Dean's Honor Award, twice</h3>
+                    <p>Awarded two times for academic excellence at the University of Asia Pacific.</p>
+                    <span class="type-tag">Academic award</span>
+                </li>
+
+                <li>
+                    <h3>Math Club</h3>
+                    <p>Former member, with a certificate for serving as Seeker in organizing a club program.</p>
+                    <span class="type-tag">Club activity</span>
+                </li>
+            </ol>
+
+        </section>
+
+        <!-- Contact -->
+        <section class="wide block centered contact" id="contact">
+
+            <span class="badge">Contact</span>
+            <h2 class="section-title">Get in touch</h2>
+            <p class="section-sub">
+                I'm open to internships and entry-level roles in backend, Python and web
+                development. Email is the quickest way to reach me.
+            </p>
+
+            <div class="contact-buttons">
+                <a href="mailto:shahiqra392@gmail.com" class="btn btn-primary">shahiqra392@gmail.com</a>
+                <a href="https://www.linkedin.com/in/shah-iqra/" class="btn btn-ghost" target="_blank" rel="noopener noreferrer">Connect on LinkedIn</a>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Shah Iqra. Built with HTML and CSS.</p>
+    </footer>
+
+    <!-- Floating navigation -->
+    <nav class="dock" aria-label="Main">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+</body>
+</html>
